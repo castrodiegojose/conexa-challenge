@@ -22,6 +22,49 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+### Instructions ###
+
+Instrucciones para Ejecutar y Probar la Aplicación de Gestión de Películas Localmente
+
+Prerrequisitos
+
+Clonar el Repositorio:
+git clone https://github.com/castrodiegojose/conexa-challenge
+
+Instalar Dependencias:
+npm install
+
+Variables de Entorno:
+Crea un archivo .env en el directorio raíz del proyecto.
+Agrega las siguientes variables de entorno:
+
+https://share.1password.com/s#KFrh8K_fqMO1GdfPJMHdaLmbHy8HBf_TziOVUrbLKFQ
+
+Ejecutar la Aplicación:
+npm run start
+
+Poblar la Base de Datos:
+Inicia la aplicación para poblar la base de datos con películas de Star Wars:
+
+npm run start
+
+Usa una herramienta como Postman o CURL para enviar una solicitud al endpoint de seeding:
+
+POST http://localhost:3000/seeding-database
+
+
+### RAILWAY ###
+
+Se deployo el server en Railway
+BASE_URL: https://conexa-challenge-production.up.railway.app/
+
+### SWAGGER ###
+
+local: http://localhost:3000/api/docs
+railway: https://conexa-challenge-production.up.railway.app/api/docs
+
+
+
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
