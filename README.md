@@ -43,6 +43,18 @@ https://share.1password.com/s#KFrh8K_fqMO1GdfPJMHdaLmbHy8HBf_TziOVUrbLKFQ
 Ejecutar la Aplicación:
 npm run start
 
+Crear User ADMIN para poder poblar la base de datos:
+
+POST http://localhost:3000/auth/sign-up
+
+Body:{
+      "email": "",
+      "password": "",
+      "firstName": "",
+      "lastName": "",
+      "isAdmin":true
+    }
+
 Poblar la Base de Datos:
 Inicia la aplicación para poblar la base de datos con películas de Star Wars:
 
